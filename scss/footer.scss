@@ -1,0 +1,12 @@
+footer{
+  background-color: #222222;
+  margin-top: 20px;
+  padding: 10px;
+
+  .transcionfooter:hover{
+    @include transicionScale(1.5);
+  }
+  .logo{
+    margin: 0px 5px;
+  }
+}
